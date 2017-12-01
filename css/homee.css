@@ -1,0 +1,126 @@
+
+body{
+	background-image:url("../img/fundo-home.jpg");
+	background-repeat:repeat;
+	margin:0px;
+	background-position:fixed;
+	width:100%;
+	
+}
+#topo-logo{
+	width:250px;
+	height:60px;
+}
+#topo-logo:hover{
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+}
+#signout{
+	color:#fff;
+	background-color: #cc0000;
+	width:100px;
+	height:30px;
+	position:absolute;
+	top:20px;
+	right:30px;
+	box-shadow: 2px 2px 2px #000;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration:none;
+	padding:5px;
+	border-radius:5px;
+
+
+}
+#signout:hover{
+	color:#A52A2A;
+	font-weight:bold;
+	background-color:rgba(255, 255, 255, 0.7)
+}
+#topo{
+	background-color:rgba(0, 0, 0, 0.4);
+	height:70px;
+	text-align:center;
+}
+#pag-inicial {
+	width:900px;
+	margin: 40px auto 0px;
+	text-align:center;
+	font-family:'Glegoo', serif;
+	background-color:rgba(255,255,255,0.3);
+	overflow-y:scroll;
+	height:970px;
+	
+
+}
+#perfil{
+	position:relative;
+	top:250px;
+
+}
+
+#img-perfil:hover, #img-fundo:hover, .img-amigo:hover{
+	border: 2px solid #fff;
+}
+#img-perfil{
+	border-radius:50%;
+	width:200px;
+	height:200px;
+}
+#fundo{
+	height:350px;
+	width:880px;
+	position:absolute;
+	text-align:center;
+	
+}
+#img-fundo{
+	height:350px;
+	width:850px;
+	
+}
+p:hover{
+	text-decoration:underline;
+}
+.seta{
+	width:30px;
+	height:20px;
+}
+#dados{
+	text-align:center;
+}
+#amigos, #dado-nomeSobrenome, #Ocultar-amigos, #Ocultar-dados{
+	font-weight:bold;
+}
+#div-amigos{
+	width:890px;
+	display:table;
+}
+#Ocultar-amigos{
+	position:absolute;
+	margin:0px;
+	bottom:0px;
+	margin-left:45%;
+}
+.div-amigos-ind{
+	float:left;
+	margin:10px;
+	width:250px;
+	height:300px;
+	
+}
+.img-amigo{
+	border-radius:50%;
+	width:150px;
+	height:150px;
+	
+}
+#gif-final{
+	border-radius:50%;
+	width:100px;
+	height:100px;
+	position:fixed;
+	bottom:5%;
+	right:30px;
+	box-shadow: 2px 2px 2px #000;
+}
